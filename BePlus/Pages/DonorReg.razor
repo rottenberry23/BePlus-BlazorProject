@@ -1,0 +1,87 @@
+﻿@page "/donoreg"
+
+@inject NavigationManager NavManager
+
+<PageTitle>Be+ Homepage</PageTitle>
+
+@* <header>
+    <h1>BE+ </h1>
+    <nav>
+        <ul>
+            <li><a href="donorpage">Donate</a></li>  <!--TAKES TO DONORPAGE TOO-->
+            <li><a href="hospage">Request</a></li> <!-- TAKES TO HOSPITAL PAGE TOO-->
+            <li><a href="about">About</a></li>  <!-- the about page-->
+            <li><a href="hmas">HMAS</a></li>  <!-- rick roll maybe-->
+        </ul>
+    </nav>
+</header>
+<hr />
+
+<div class="formatter">
+    @if(!done){
+
+    <div class="signinarea">
+        <h3>Please fill out the following fields to register yourself and become a part of us</h3>
+
+        <div class="signincard">
+            
+            <label>Full Name :</label>
+            <input type="text" required /> <br />
+
+            <label>CNIC :</label>
+            <input type="number" required /> <br />
+            
+            <label style="margin-right: 30px">Email :</label>
+            <input type="email" required /> <br />
+
+            <label>Phone :</label>
+            <input type="number" required /> <br />
+
+            <label>Blood Type :</label>
+            <input type="text" required /> <br />
+
+            <label>Age :</label>
+            <input type="number" required /> <br />
+
+            <label>Password :</label>
+            <input type="password" required /> <br />
+
+
+
+            <div >
+                <button class="buttonsignin" @onclick="registered">Register</button>
+
+            </div>
+
+        </div>
+
+        </div>
+    }
+    else{
+        <h5>Registration Succesfull...Redirecting you to the Sign In page.</h5>
+        redirect();
+    }
+</div>
+
+
+<hr />
+
+<footer>
+    <p>&copy; 2024 Be+ Blood Bank WebApp. Property of HMAS. All rights reserved.</p>
+</footer> *@
+
+@code {
+    // public bool done = false;
+
+    // public void registered()
+    // {
+    //     done = !done;
+    // }
+
+    // public async Task redirect()
+    // {
+    //     await Task.Delay(5000);
+    //     NavManager.NavigateTo("/donorpage");
+    // }
+
+}

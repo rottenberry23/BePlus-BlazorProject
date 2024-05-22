@@ -1,0 +1,12 @@
+﻿@page "/"
+@inject NavigationManager Navigation
+<PageTitle>Be+ Homepage</PageTitle>
+
+
+
+@code{
+    public void gotoDonorPage()
+    { Navigation.NavigateTo("/donorpage");  }
+    public void gotoHospPage()
+    { Navigation.NavigateTo("/hospage"); }
+}
