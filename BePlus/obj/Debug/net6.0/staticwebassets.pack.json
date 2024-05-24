@@ -53,8 +53,40 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\resources\\1.png",
+      "PackagePath": "staticwebassets\\resources\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\resources\\2.png",
+      "PackagePath": "staticwebassets\\resources\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\resources\\Rick.mp4",
+      "PackagePath": "staticwebassets\\resources\\Rick.mp4"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\resources\\bloodcomp.png",
+      "PackagePath": "staticwebassets\\resources\\bloodcomp.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\resources\\dyk.png",
+      "PackagePath": "staticwebassets\\resources\\dyk.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\resources\\favicon.ico",
+      "PackagePath": "staticwebassets\\resources\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\resources\\giftlife.png",
+      "PackagePath": "staticwebassets\\resources\\giftlife.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\resources\\sample.png",
+      "PackagePath": "staticwebassets\\resources\\sample.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\resources\\usage.png",
+      "PackagePath": "staticwebassets\\resources\\usage.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BePlus.Microsoft.AspNetCore.StaticWebAssets.props",

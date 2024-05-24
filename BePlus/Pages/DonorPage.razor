@@ -3,6 +3,85 @@
 <PageTitle>Be+ Donor SignIn</PageTitle>
 
 
+	<header>
+		<img src="resources/2.png" width="auto" height="150px">
+		<nav>
+			<ul>
+				<li><a href="/">BE+ Home</a></li>
+				<li><a href="adminlogin">Admin</a></li>
+				<li><a href="hospitallogin">Request Blood</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+	<hr>
+	<div class="body-content">
+		<div class="donate-card">
+			<!-- HEADING AREA -->
+			<h1 style="margin-bottom: 3px; font-weight:600;">BE+ Blood</h1>
+			<h2 style="margin-top: 3px;">Donation Form</h2>
+			<h4>Fill out the following form to book an appointment with us</h4>
+			<br><br>
+			<!-- HEADING AREA -->
+
+
+			<div class="form-container">
+				<div class="form-group">
+					<span class="makeshift-label">Fullname:</span>	<input type="text" id="fullname">
+				</div>
+
+				<div class="form-group">
+					<span class="makeshift-label">CNIC:</span>	<input type="number" id="cnic">
+				</div>
+			</div>
+
+			<span class="makeshift-label">Select Location :</span>
+			<label><input type="radio" name="location"> Infusion Bank, Peshawar</label>
+			<label><input type="radio" name="location"> Drops of Life, Islamabad</label>
+
+			<br>
+
+			<span class="makeshift-label">Select Time :</span>
+			<label><input type="radio" name="time"> 12:00 PM</label>
+			<label><input type="radio" name="time"> 01:00 PM</label>
+			<label><input type="radio" name="time"> 03:00 PM</label>
+			<br>
+
+			<span class="makeshift-label" style="display: inline-block;">Select Date :</span>
+			<input type="date" id="dateInput">  <!-- Available slots? does this needs to be linked? can't -->
+			<script>
+				// Function to get today's date in YYYY-MM-DD format
+				function getTodayDate() {
+					const today = new Date();
+					const year = today.getFullYear();
+					const month = String(today.getMonth() + 1).padStart(2, '0');
+					const day = String(today.getDate()).padStart(2, '0');
+					return `${year}-${month}-${day}`;
+				}
+				// Set the min attribute of the date input to today's date
+				document.getElementById('dateInput').setAttribute('min', getTodayDate());
+			</script>
+
+			<div style="text-align: center;">
+				<button class="buttontypetwo">Send Donation Request</button>
+			</div>
+
+		</div>
+	</div>
+
+	<hr>
+	<footer>
+		<div class="footer-list">
+			<ul>
+				<li><a href="aboutpage">About Be+</a></li>
+				 <li style="padding-left: 705px;"><a href="HMAS">About HMAS</a></li> 
+				<br>
+				<li><a href="rick">Rick</a></li>
+			</ul>
+		</div>
+		 <p>&copy; 2024 Be+ Blood Bank WebApp. Property of HMAS. All rights reserved.</p>
+	</footer>
+
 
 @code {
     

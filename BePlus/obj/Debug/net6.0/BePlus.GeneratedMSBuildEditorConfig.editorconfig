@@ -22,16 +22,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus/Pages/AdminLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5Mb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ADMIN/Desktop/rao/BePlus/BePlus/Pages/DonorPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9ub3JQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus/Pages/DonorReg.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9ub3JSZWcucmF6b3I=
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus/Pages/HMAS.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSE1BUy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus/Pages/HospitalPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9zcGl0YWxQYWdlLnJhem9y
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus/Pages/HospitalLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9zcGl0YWxMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ADMIN/Desktop/rao/BePlus/BePlus/Pages/HospitalReg.razor]
@@ -40,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ADMIN/Desktop/rao/BePlus/BePlus/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus/Pages/Rick.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmljay5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ADMIN/Desktop/rao/BePlus/BePlus/_Imports.razor]
