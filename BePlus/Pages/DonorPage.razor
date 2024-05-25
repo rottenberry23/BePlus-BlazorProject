@@ -27,18 +27,27 @@
 
 			<div class="form-container">
 				<div class="form-group">
-					<span class="makeshift-label">Fullname:</span>	<input type="text" id="fullname">
+					<span class="makeshift-label">CNIC:</span>	<input type="number" @bind="bufferCnic" required>
 				</div>
 
 				<div class="form-group">
-					<span class="makeshift-label">CNIC:</span>	<input type="number" id="cnic">
+					<span class="makeshift-label">Fullname:</span>	<input type="text" @bind="bufferName" required>
+				</div>	
+			</div>
+			<div class="form-container">
+				<div class="form-group"> 
+					<span class="makeshift-label">Phone:</span>	<input type="number" @bind="bufferPhone" required>
+				</div>
+
+				<div class="form-group">
+					<span class="makeshift-label">Email:</span>	<input type="email" @bind="bufferEmail" required>
 				</div>
 			</div>
 
-			<span class="makeshift-label">Select Location :</span>
+        <span class="makeshift-label">Select Location :</span>  @* you were here...had to gpt how to radio->variable *@
 			<label><input type="radio" name="location"> Infusion Bank, Peshawar</label>
 			<label><input type="radio" name="location"> Drops of Life, Islamabad</label>
-
+			
 			<br>
 
 			<span class="makeshift-label">Select Time :</span>
@@ -84,5 +93,28 @@
 
 
 @code {
-    
+	/*
+		the buffers are used to interact with the form and then as user clicks the submit button, the values of buffers will be passed to the
+		actual variables that im gonna use to interact w the database :)
+	*/ 
+
+	public string bufferName;
+	public string name;
+	public string bufferEmail;
+	public string email;
+	public string location;
+	public int time; //it'll either be 12, 1 or 3 so taking it as an int and not actual ime datatype
+	public long bufferCnic;
+	public long cnic;  //13 digits long  || Add check for this
+	public long bufferPhone;
+	public long phone;	//11 digits long || Add check for this
+
+	// FIGURE SMTH OUT TO GET THE DATE FROM THE CALENDER !!!
+
+	//when user clicks on submit : add a check that checks all values for integrity (size of cnic, phone etc) and then proceed to submitting to
+	// DB or else display an error message to correct whats wrong.
+
+
+
+
 }
