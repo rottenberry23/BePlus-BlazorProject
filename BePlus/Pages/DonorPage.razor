@@ -46,8 +46,8 @@
 
         <span class="makeshift-label">Select Location :</span>  
 			
-			<label><input type="radio" name="options" @onchange="@((args) => location = "Infusion Bank, Peshawar")" /> Infusion Bank, Peshawar</label>
-			<label><input type="radio" name="options" @onchange="@((args) => location = "Drops of Life, Islo")" /> Drops of Life, Islamabad</label>
+			<label><input type="radio" name="options" @onchange="@((args) => location = "IBP")" /> Infusion Bank, Peshawar</label>
+			<label><input type="radio" name="options" @onchange="@((args) => location = "DoL")" /> Drops of Life, Islamabad</label>
 
 			<br>
 
@@ -77,16 +77,8 @@
 			</script>
 
 			<div style="text-align: center;">
-				<button class="buttontypetwo">Send Donation Request</button>
+				<button class="buttontypetwo" @onclick="evaluate">Send Donation Request</button>
 			</div>
-
-			Summary:
-			time :@time<br />
-			loc: @location <br />
-			name :@bufferName<br />
-			CNIC: @bufferCnic<br />
-			mail: @bufferEmail<br />
-			phone: @bufferPhone<br />
 
 		</div>
 	</div>
@@ -127,7 +119,14 @@
 	//when user clicks on submit : add a check that checks all values for integrity (size of cnic, phone etc) and then proceed to submitting to
 	// DB or else display an error message to correct whats wrong.
 
+	public void evaluate()
+	{
+		if(bufferCnic < 1000000000000 || bufferCnic > 9999999999999)
+		{
+			
+		}
 
+	}
 
 
 }

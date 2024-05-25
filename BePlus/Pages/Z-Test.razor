@@ -1,6 +1,58 @@
 ﻿@page "/test"
+@inject IJSRuntime JSRuntime
 
-<h3>Radio Button Example</h3>
+
+
+<h3>Validate Number Input</h3>
+
+<input type="number" @bind="@inputValue" @oninput="ValidateInput" />
+<span>@inputError</span>
+
+<button @onclick="ValidateAndProceed">Validate</button>
+
+@code {
+    string inputValue;
+    string inputError;
+
+    void ValidateInput(ChangeEventArgs e)
+    {
+        // Get the input value as a string
+        string input = e.Value?.ToString();
+
+        // Check if the input value is exactly 13 digits
+        if (!string.IsNullOrEmpty(input) && input.Length == 13 && long.TryParse(input, out _))
+        {
+            inputValue = input;
+            inputError = ""; // Clear error if input is valid
+        }
+        else
+        {
+            inputValue = ""; // Reset the value if invalid
+            inputError = "Invalid input"; // Display error message
+        }
+    }
+
+    async Task ValidateAndProceed()
+    {
+        if (!string.IsNullOrEmpty(inputValue))
+        {
+            // Input is valid, proceed to the next action
+            // For example, navigate to another page
+            // NavigationManager.NavigateTo("/nextPage");
+        }
+        else
+        {
+            // Input is invalid, prompt the user to re-enter the number
+            await JSRuntime.InvokeVoidAsync("alert", "Please enter a valid 13-digit number");
+        }
+    }
+}
+
+
+
+
+
+@*<h3>Radio Button Example</h3>
 
 <p>Selected Option: @selectedOption</p>
 
@@ -20,4 +72,3 @@
 			<label><input type="radio" name="time" @bind="time"> 12:00 PM</label>
 			<label><input type="radio" name="time" @bind="time"> 01:00 PM</label>
 			<label><input type="radio" name="time" @bind="time"> 03:00 PM</label>*@
-			
