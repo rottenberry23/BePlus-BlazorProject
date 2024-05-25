@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fkIrp32bk3etqXyJNpUfD9A+sOKOCQe4anX8f6DPbf2ScAGtgR8BoqCWvkRiPLvsSKwxFYBTxD14qi3zMCh9zw==",
+  "dgSpecHash": "wO8BJT259WlDDPwLArfxilcUzC6Cml+Y/tMqXbbacvXxYR8pYPi2s+CiYz6uVNN3H+FNtq9SlntZtSjUCnN0JA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\BePlus.csproj",
+  "projectFilePath": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\BePlus.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,23 @@
+﻿@page "/test"
+
+<h3>Radio Button Example</h3>
+
+<p>Selected Option: @selectedOption</p>
+
+<label><input type="radio" name="options" @onchange="@((args) => selectedOption = "Option 1")" /> Option 1</label><br />
+<label><input type="radio" name="options" @onchange="@((args) => selectedOption = "Option 2")" /> Option 2</label><br />
+<label><input type="radio" name="options" @onchange="@((args) => selectedOption = "Option 3")" /> Option 3</label><br />
+
+@code {
+    private string selectedOption { get; set; } = "Option 1";
+}
+
+
+@* <label><input type="radio" name="location" @bind="location"> Infusion Bank, Peshawar</label>
+			<label><input type="radio" name="location" @bind="location"> Drops of Life, Islamabad</label> 
+			
+			
+			<label><input type="radio" name="time" @bind="time"> 12:00 PM</label>
+			<label><input type="radio" name="time" @bind="time"> 01:00 PM</label>
+			<label><input type="radio" name="time" @bind="time"> 03:00 PM</label>*@
+			

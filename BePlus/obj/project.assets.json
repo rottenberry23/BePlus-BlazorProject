@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\BePlus.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\BePlus.csproj",
       "projectName": "BePlus",
-      "projectPath": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\BePlus.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\BePlus.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

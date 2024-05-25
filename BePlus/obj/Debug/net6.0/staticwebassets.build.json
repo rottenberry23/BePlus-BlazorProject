@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ol9b8nJ7rY6UOvv34m4253G5X8HDfL+FAsRxHK7oQiI=",
+  "Hash": "zTUhAyIFn/2reVdjzKeN6zEKE24oQDbpt6LNgNjvtS0=",
   "Source": "BePlus",
   "BasePath": "_content/BePlus",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BePlus\\wwwroot",
       "Source": "BePlus",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BePlus.styles.css",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BePlus.styles.css",
       "SourceId": "BePlus",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "BePlus.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BePlus.styles.css"
+      "OriginalItemSpec": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BePlus.styles.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BePlus.bundle.scp.css",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BePlus.bundle.scp.css",
       "SourceId": "BePlus",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "BePlus.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BePlus.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BePlus.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\site.css",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\resources\\1.png",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\resources\\1.png",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "resources/1.png",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\resources\\1.png"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\resources\\2.png",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\resources\\2.png",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "resources/2.png",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\resources\\2.png"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\resources\\bloodcomp.png",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\resources\\bloodcomp.png",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "resources/bloodcomp.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\resources\\bloodcomp.png"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\resources\\dyk.png",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\resources\\dyk.png",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "resources/dyk.png",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\resources\\dyk.png"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\resources\\favicon.ico",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\resources\\favicon.ico",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "resources/favicon.ico",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\resources\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\resources\\giftlife.png",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\resources\\giftlife.png",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "resources/giftlife.png",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\resources\\giftlife.png"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\resources\\Rick.mp4",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\resources\\Rick.mp4",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "resources/Rick.mp4",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\resources\\Rick.mp4"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\resources\\sample.png",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\resources\\sample.png",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "resources/sample.png",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\resources\\sample.png"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\resources\\usage.png",
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\resources\\usage.png",
       "SourceId": "BePlus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\",
       "BasePath": "_content/BePlus",
       "RelativePath": "resources/usage.png",
       "AssetKind": "All",

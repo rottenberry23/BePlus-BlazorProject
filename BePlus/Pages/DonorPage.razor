@@ -44,16 +44,21 @@
 				</div>
 			</div>
 
-        <span class="makeshift-label">Select Location :</span>  @* you were here...had to gpt how to radio->variable *@
-			<label><input type="radio" name="location"> Infusion Bank, Peshawar</label>
-			<label><input type="radio" name="location"> Drops of Life, Islamabad</label>
+        <span class="makeshift-label">Select Location :</span>  
 			
+			<label><input type="radio" name="options" @onchange="@((args) => location = "Infusion Bank, Peshawar")" /> Infusion Bank, Peshawar</label>
+			<label><input type="radio" name="options" @onchange="@((args) => location = "Drops of Life, Islo")" /> Drops of Life, Islamabad</label>
+
 			<br>
 
 			<span class="makeshift-label">Select Time :</span>
-			<label><input type="radio" name="time"> 12:00 PM</label>
-			<label><input type="radio" name="time"> 01:00 PM</label>
-			<label><input type="radio" name="time"> 03:00 PM</label>
+			<label><input type="radio" name="options" @onchange="@((args) => time = 12)" />  12:00 PM</label>
+			<label><input type="radio" name="options" @onchange="@((args) => time = 1)" />  1:00 PM</label>
+			<label><input type="radio" name="options" @onchange="@((args) => time = 3)" />  3:00 PM</label>
+
+
+
+			
 			<br>
 
 			<span class="makeshift-label" style="display: inline-block;">Select Date :</span>
@@ -74,6 +79,14 @@
 			<div style="text-align: center;">
 				<button class="buttontypetwo">Send Donation Request</button>
 			</div>
+
+			Summary:
+			time :@time<br />
+			loc: @location <br />
+			name :@bufferName<br />
+			CNIC: @bufferCnic<br />
+			mail: @bufferEmail<br />
+			phone: @bufferPhone<br />
 
 		</div>
 	</div>
@@ -103,7 +116,7 @@
 	public string bufferEmail;
 	public string email;
 	public string location;
-	public int time; //it'll either be 12, 1 or 3 so taking it as an int and not actual ime datatype
+	public int time; //it'll either be 12, 1 or 3 so taking it as an int and not actual time datatype
 	public long bufferCnic;
 	public long cnic;  //13 digits long  || Add check for this
 	public long bufferPhone;
