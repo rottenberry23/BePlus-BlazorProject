@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/AdminHome.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5Ib21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/AdminLogin.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5Mb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,6 +54,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSE1BUy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/HospitalHome.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9zcGl0YWxIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/HospitalLogin.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9zcGl0YWxMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,10 +68,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/Request.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVxdWVzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/Rick.razor]

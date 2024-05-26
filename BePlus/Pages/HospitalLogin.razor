@@ -33,6 +33,7 @@
             <div style="text-align: center;">
                 <button class="buttontypetwo" @onclick="evaluate">Sign In to BE+</button>
             </div>
+            <p style="margin-top: 40px;">Not a member? <a href="bbsignup">Sign Up here</a></p>
         </div>
     </div>
     }
@@ -90,5 +91,8 @@
     private NavigationManager NavigationManager { get; set; }
 
     private async Task Login() { isLoginSuccess = true; }
+
+
+    //fetch data from DB to see if a registered hospital with these credentials exists,  and let them pass thru to the homepage 
 
 }
