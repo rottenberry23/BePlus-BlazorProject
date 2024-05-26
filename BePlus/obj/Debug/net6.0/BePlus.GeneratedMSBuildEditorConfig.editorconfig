@@ -30,6 +30,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5Mb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/BloodBankHome.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvb2RCYW5rSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/BloodBankSignIn.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvb2RCYW5rU2lnbkluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/BloodBankSignUp.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvb2RCYW5rU2lnblVwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ADMIN/Desktop/rao/BePlus/BePlus-BlazorProject/BePlus/Pages/DonorPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9ub3JQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
