@@ -2,22 +2,16 @@
 
 @inject NavigationManager NavManager
 
-<PageTitle>Be+ Homepage</PageTitle>
+<PageTitle>Be+ Hospital Registration</PageTitle>
 
 
 
 @code {
-    public bool done = false;
-
-    public void registered()
-    {
-        done = !done;
-    }
-
-    public async Task redirect()
-    {
-        await Task.Delay(5000);
-        NavManager.NavigateTo("/donorpage");
-    }
+    /*
+     *  THIS HPAGE SENDS:
+     *          username, hospitls actual name, password to the DB
+     *  This PAFE needs :
+     *          check that someone cannot make the same username again w the same hospital name
+     */
 
 }

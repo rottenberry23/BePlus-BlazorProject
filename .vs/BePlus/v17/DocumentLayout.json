@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5111888B-04A3-439C-9230-EF50ECB0866B}|BePlus\\BePlus.csproj|c:\\users\\admin\\desktop\\rao\\beplus\\beplus-blazorproject\\beplus\\pages\\z-test.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5111888B-04A3-439C-9230-EF50ECB0866B}|BePlus\\BePlus.csproj|solutionrelative:beplus\\pages\\z-test.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5111888B-04A3-439C-9230-EF50ECB0866B}|BePlus\\BePlus.csproj|c:\\users\\admin\\desktop\\rao\\beplus\\beplus-blazorproject\\beplus\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5111888B-04A3-439C-9230-EF50ECB0866B}|BePlus\\BePlus.csproj|solutionrelative:beplus\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5111888B-04A3-439C-9230-EF50ECB0866B}|BePlus\\BePlus.csproj|c:\\users\\admin\\desktop\\rao\\beplus\\beplus-blazorproject\\beplus\\pages\\donorpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5111888B-04A3-439C-9230-EF50ECB0866B}|BePlus\\BePlus.csproj|solutionrelative:beplus\\pages\\donorpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5111888B-04A3-439C-9230-EF50ECB0866B}|BePlus\\BePlus.csproj|c:\\users\\admin\\desktop\\rao\\beplus\\beplus-blazorproject\\beplus\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5111888B-04A3-439C-9230-EF50ECB0866B}|BePlus\\BePlus.csproj|solutionrelative:beplus\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5111888B-04A3-439C-9230-EF50ECB0866B}|BePlus\\BePlus.csproj|c:\\users\\admin\\desktop\\rao\\beplus\\beplus-blazorproject\\beplus\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{5111888B-04A3-439C-9230-EF50ECB0866B}|BePlus\\BePlus.csproj|solutionrelative:beplus\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5111888B-04A3-439C-9230-EF50ECB0866B}|BePlus\\BePlus.csproj|c:\\users\\admin\\desktop\\rao\\beplus\\beplus-blazorproject\\beplus\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5111888B-04A3-439C-9230-EF50ECB0866B}|BePlus\\BePlus.csproj|solutionrelative:beplus\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "BePlus\\wwwroot\\css\\site.css",
@@ -43,63 +31,26 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-05-25T14:48:12.554Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\Pages\\Index.razor",
-              "RelativeDocumentMoniker": "BePlus\\Pages\\Index.razor",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\Pages\\Index.razor",
-              "RelativeToolTip": "BePlus\\Pages\\Index.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-25T14:48:17.288Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\_Imports.razor",
-              "RelativeDocumentMoniker": "BePlus\\_Imports.razor",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\_Imports.razor",
-              "RelativeToolTip": "BePlus\\_Imports.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-25T19:22:13.596Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Z-Test.razor",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\Pages\\Z-Test.razor",
-              "RelativeDocumentMoniker": "BePlus\\Pages\\Z-Test.razor",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\Pages\\Z-Test.razor",
-              "RelativeToolTip": "BePlus\\Pages\\Z-Test.razor",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "BePlus\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\Pages\\Index.razor",
+              "RelativeToolTip": "BePlus\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-25T17:07:50.294Z",
+              "WhenOpened": "2024-05-25T14:48:17.288Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DonorPage.razor",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\Pages\\DonorPage.razor",
-              "RelativeDocumentMoniker": "BePlus\\Pages\\DonorPage.razor",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\rao\\BePlus\\BePlus-BlazorProject\\BePlus\\Pages\\DonorPage.razor",
-              "RelativeToolTip": "BePlus\\Pages\\DonorPage.razor",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAiwH0AAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-25T14:48:23.826Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

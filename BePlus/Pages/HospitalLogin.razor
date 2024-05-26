@@ -1,9 +1,8 @@
 ﻿@page "/hospitallogin"
 @inject NavigationManager Navigation
+
 <PageTitle>Be+ Hospital SignIn</PageTitle>
 
-
-<body>
     <header>
         <img src="resources/2.png" width="auto" height="150px">
         <nav>
@@ -16,6 +15,8 @@
         </nav>
     </header>
     <hr>
+    @if(showLogin)
+    {
     <div class="body-content">
         <div class="login-card">
             <h1 style="margin-bottom: 3px">BE+ Hospitals</h1>
@@ -24,15 +25,33 @@
 
 
             <label>User :</label>
-            <input type="text" name=""> <br>
+            <input type="text" name="" @bind="user"> <br>
             <label>Pass :</label>
-            <input type="text" name="">
+            <input type="password" @bind="pass">
 
             <div style="text-align: center;">
-                <button class="buttontypetwo">Sign In to BE+</button>
+                <button class="buttontypetwo" @onclick="evaluate">Sign In to BE+</button>
             </div>
         </div>
     </div>
+    }
+    else
+    {
+        <div class="body-content">
+        <div class="login-card">
+            <h1 style="margin-bottom: 3px">BE+ Hospitals</h1>
+            <h2 style="margin-top: 3px;">Login Page</h2>
+            <br>
+            <h3>Login Succesfull</h3>
+            <h5>Redirecting you to the Request Form</h5>
+             @{
+                Task.Delay(3000).ContinueWith(_ => { NavigationManager.NavigateTo("/request"); });
+              }
+
+
+        </div>
+    </div>
+    }
 
     <hr>
 
@@ -51,8 +70,24 @@
     </footer>
 
 
-</body>
-
 @code {
+    public string hosUser = "Pims";
+    public string hosPass = "Pims@123";
+
+    public string user {get; set;}
+    public string pass {get; set;}
+
+    public bool showLogin = true;
+    private bool isLoginSuccess = false;
+
+    public void evaluate()
+    {
+        if(user == hosUser && pass == hosPass) { showLogin = false; }
+    }
+
+    [Inject]
+    private NavigationManager NavigationManager { get; set; }
+
+    private async Task Login() { isLoginSuccess = true; }
 
 }

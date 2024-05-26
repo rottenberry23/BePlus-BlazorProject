@@ -15,11 +15,14 @@
 		</nav>
 	</header>
 	<hr>
-	<div class="body-content">
+@if (form)
+{
+    <div class="body-content">
 		<div class="donate-card">
 			<!-- HEADING AREA -->
 			<h1 style="margin-bottom: 3px; font-weight:600;">BE+ Blood</h1>
 			<h2 style="margin-top: 3px;">Donation Form</h2>
+		
 			<h4>Fill out the following form to book an appointment with us</h4>
 			<br><br>
 			<!-- HEADING AREA -->
@@ -46,23 +49,18 @@
 
         <span class="makeshift-label">Select Location :</span>  
 			
-			<label><input type="radio" name="options" @onchange="@((args) => location = "IBP")" /> Infusion Bank, Peshawar</label>
-			<label><input type="radio" name="options" @onchange="@((args) => location = "DoL")" /> Drops of Life, Islamabad</label>
-
+			<label><input type="radio" name="options1" @onchange="@((args) => location = "IBP")" /> Infusion Bank, Peshawar</label>
+			<label><input type="radio" name="options1" @onchange="@((args) => location = "DoL")" /> Drops of Life, Islamabad</label>
 			<br>
 
 			<span class="makeshift-label">Select Time :</span>
-			<label><input type="radio" name="options" @onchange="@((args) => time = 12)" />  12:00 PM</label>
-			<label><input type="radio" name="options" @onchange="@((args) => time = 1)" />  1:00 PM</label>
-			<label><input type="radio" name="options" @onchange="@((args) => time = 3)" />  3:00 PM</label>
-
-
-
-			
+			<label><input type="radio" name="options2" @onchange="@((args) => time = 12)" />  12:00 PM</label>
+			<label><input type="radio" name="options2" @onchange="@((args) => time = 1)" />  1:00 PM</label>
+			<label><input type="radio" name="options2" @onchange="@((args) => time = 3)" />  3:00 PM</label>
 			<br>
 
 			<span class="makeshift-label" style="display: inline-block;">Select Date :</span>
-			<input type="date" id="dateInput">  <!-- Available slots? does this needs to be linked? can't -->
+			<input type="date" id="dateInput" @bind="Date">  <!-- Available slots? does this needs to be linked? can't -->
 			<script>
 				// Function to get today's date in YYYY-MM-DD format
 				function getTodayDate() {
@@ -76,12 +74,41 @@
 				document.getElementById('dateInput').setAttribute('min', getTodayDate());
 			</script>
 
+		
 			<div style="text-align: center;">
 				<button class="buttontypetwo" @onclick="evaluate">Send Donation Request</button>
 			</div>
 
+			@if(yes)
+			{
+				<span>Enter Correct Values for CNIC AND Phone to proceed to book an appointment</span>
+			}
+
 		</div>
 	</div>
+}
+else
+{
+	<div class="body-content">
+		<div class="donate-card">
+			<h1 style="margin-bottom: 3px; font-weight:600;">BE+ Blood</h1>
+			<h2 style="margin-top: 3px;">Donation Form</h2>
+
+			<br>
+			<h3>Your appointment has been successfully made</h3>
+			<button class="buttontypetwo" @onclick="NavigateHome">Go back to Home Page</button>
+			
+			<br>
+			@name <br>
+			@email <br>
+			@phone <br>
+			@cnic <br>
+			@Date <br>
+			@location <br>
+			@time <br>  @* THIS DATA GOES TO THE DB *@
+		</div>
+	</div>
+}
 
 	<hr>
 	<footer>
@@ -98,8 +125,7 @@
 
 
 @code {
-	/*
-		the buffers are used to interact with the form and then as user clicks the submit button, the values of buffers will be passed to the
+	/*	the buffers are used to interact with the form and then as user clicks the submit button, the values of buffers will be passed to the
 		actual variables that im gonna use to interact w the database :)
 	*/ 
 
@@ -112,21 +138,31 @@
 	public long bufferCnic;
 	public long cnic;  //13 digits long  || Add check for this
 	public long bufferPhone;
-	public long phone;	//11 digits long || Add check for this
+	public long phone;  //11 digits long || Add check for this
+	public DateTime Date { get; set; }
 
-	// FIGURE SMTH OUT TO GET THE DATE FROM THE CALENDER !!!
+	private bool yes = false;
+	private bool form = true;
+	private bool forbutton = true;
 
-	//when user clicks on submit : add a check that checks all values for integrity (size of cnic, phone etc) and then proceed to submitting to
-	// DB or else display an error message to correct whats wrong.
+	public void NavigateHome(){ Navigation.NavigateTo("/"); }
 
 	public void evaluate()
 	{
-		if(bufferCnic < 1000000000000 || bufferCnic > 9999999999999)
+		if((bufferCnic < 1000000000000 || bufferCnic > 9999999999999) || (bufferPhone >99999999999 || bufferPhone <10000000000))
 		{
-			
+			yes = true;
 		}
-
+		else
+		{
+			name = bufferName;
+			email = bufferEmail;
+			cnic = bufferCnic;
+			phone = bufferPhone;
+			form = false;
+		}
 	}
+	
 
 
 }
