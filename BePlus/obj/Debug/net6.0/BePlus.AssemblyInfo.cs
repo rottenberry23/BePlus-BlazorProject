@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BePlus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e20b51af42137e3ebb06d5604f7e6eb69c3bf6cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91ad6a44ad39fbb3a46bb9e30a237d2c9c8d822c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BePlus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BePlus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
